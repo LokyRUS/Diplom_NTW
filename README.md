@@ -54,7 +54,11 @@ Switch(config)#ex
 Switch#
 %SYS-5-CONFIG_I: Configured from console by console
 ```
-
+- Логирование
+```
+Switch(config)#logging on
+Switch(config)#logging host 192.168.100.100
+```
 # назначение Vlan на свиче swich1
 ```
 Switch#configure terminal 
@@ -101,6 +105,12 @@ Switch(config)#ex
 Switch#
 %SYS-5-CONFIG_I: Configured from console by console
 ```
+- Логирование
+```
+Switch(config)#logging on
+Switch(config)#logging host 192.168.100.100
+```
+
 # назначение Vlan на свиче swich2
 ```
 Switch#configure terminal 
@@ -148,6 +158,11 @@ Switch(config-if)#ex
 Switch(config)#ex
 Switch#
 %SYS-5-CONFIG_I: Configured from console by console
+```
+- Логирование
+```
+Switch(config)#logging on
+Switch(config)#logging host 192.168.100.100
 ```
 
 # Настройка портов на swich0
