@@ -1,6 +1,7 @@
 # Дипломная работа NTW-28
 # Исполнитель: Смирнов Кирилл 
-[файл для скачивания](https://github.com/LokyRUS/Diplom_NTW/blob/nevidimka/file/ntw_topology_8.2.2.pkt)
+# [файл.pkt для скачивания](https://github.com/LokyRUS/Diplom_NTW/blob/nevidimka/file/ntw_topology_8.2.2.pkt)
+# [Таблицу распределения подсетей и адресов]()
 ## Топология
 ![images1](https://github.com/LokyRUS/Diplom_NTW/blob/nevidimka/file/1.PNG)
 
