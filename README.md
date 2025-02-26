@@ -2,6 +2,11 @@
 # Исполнитель: Смирнов Кирилл 
 # [файл.pkt для скачивания](https://github.com/LokyRUS/Diplom_NTW/blob/nevidimka/file/ntw_topology_8.2.2.pkt)
 # [Таблицу распределения подсетей и адресов](https://github.com/LokyRUS/Diplom_NTW/blob/nevidimka/file/ip-address-table%20.xlsx)
+
+### Ответ на вопрос:  
+Чем чреват выбор протокола GRE для объединения сети ЦО и филиала в 15 пункте. Какие более безопасные альтернативы можно предложить без потери функциональности?
+Ответ: В данном случае у этого GRE отсутствует какое либо шифорвание, для безопасности, можно внедрить в тоннель IPSec. Альтернативой может послужить VPN тоннель. 
+
 ## Топология
 ![images1](https://github.com/LokyRUS/Diplom_NTW/blob/nevidimka/file/1.PNG)
 
