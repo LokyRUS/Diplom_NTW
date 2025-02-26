@@ -1,5 +1,8 @@
 # Дипломная работа NTW-28
 # Исполнитель: Смирнов Кирилл 
+## Топология
+![images1](https://github.com/LokyRUS/Diplom_NTW/blob/nevidimka/file/1.PNG)
+
 # назначение Vlan на свиче swich0
 ```
 Switch#configure terminal 
