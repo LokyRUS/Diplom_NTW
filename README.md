@@ -356,18 +356,23 @@ HSRP
 Switch(config)#interface vlan 100
 Switch(config-if)#standby 1 ip 192.168.100.1
 Switch(config-if)#standby 1 priority 100
+standby 1 track FastEthernet0/4
 Switch(config)#interface vlan 200
 Switch(config-if)#standby 1 ip 192.168.20.1
 Router(config-if)#standby 1 priority 100
+standby 1 track FastEthernet0/5
 Switch(config)#interface vlan 300
 Switch(config-if)#standby 1 ip 192.168.30.1
 Switch(config-if)#standby 1 priority 100
+standby 1 track FastEthernet0/4
 Switch(config)#interface vlan 400
 Switch(config-if)#standby 1 ip 192.168.40.1
 Switch(config-if)#standby 1 priority 100
+standby 1 track FastEthernet0/4
 Switch(config)#interface vlan 500
 Switch(config-if)#standby 1 ip 192.168.50.1
 Switch(config-if)#standby 1 priority 100
+standby 1 track FastEthernet0/4
 ```
 
 
@@ -492,26 +497,31 @@ Switch(config)#interface vlan 100
 Switch(config-if)#standby 1 ip 192.168.100.50
 Switch(config-if)#standby 1 priority 90
 Switch(config-if)#standby 1 preempt
+standby 1 track FastEthernet0/5
 
 Switch(config)#interface vlan 200
 Switch(config-if)#standby 1 ip 192.168.20.1
 Switch(config-if)#standby 1 priority 90
 Switch(config-if)#standby 1 preempt
+standby 1 track FastEthernet0/5
 
 Switch(config)#interface vlan 300
 Switch(config-if)#standby 1 ip 192.168.30.1
 Switch(config-if)#standby 1 priority 90
 Switch(config-if)#standby 1 preempt
+standby 1 track FastEthernet0/5
 
 Switch(config)#interface vlan 400
 Switch(config-if)#standby 1 ip 192.168.40.1
 Switch(config-if)#standby 1 priority 90
 Switch(config-if)#standby 1 preempt
+standby 1 track FastEthernet0/5
 
 Switch(config)#interface vlan 500
 Switch(config-if)#standby 1 ip 192.168.50.1
 Switch(config-if)#standby 1 priority 90
 Switch(config-if)#standby 1 preempt
+standby 1 track FastEthernet0/5
 ```
 Настрокай статической агрегации L2 на обоих коммутаторах.
 ```
